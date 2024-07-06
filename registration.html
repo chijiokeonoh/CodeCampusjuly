@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        form{
+            text-align: center;
+        }
+
+    </style>
+
 </head>
 <body>
     <form action="">
+        <div >
         <h2>Registration Form</h2>
         <label for="fName">First name</label>
         <input type="text" id="fname"><br><br>
@@ -30,17 +38,19 @@
     <input type="country" id="country" name="country"><br><br>
 
     <label for="address">Mailing address</label>
-    <input type="address" id="address" name="address"><br><br>
+    <textarea id="address" name="address" cols="20" rows="3"></textarea><br><br>
 
     <label for="comm">Comment</label>
-    <input type="comment" name="comment" id="comment"><br><br>
+    <textarea name="comment" id="comment"
+    cols="20" rows="3"></textarea><br><br>
 
     <label for="date">Current Date</label>
     <input type="date" name="date" id="date"><br><br>
 
     <label for="signature">Signature</label>
-    <input type="signature" name="signature" id="signature">
-
+    <textarea name="signature" id="signature" cols="16" rows="3">
+    </textarea>
+</div>
 
     </form>
 </body>
