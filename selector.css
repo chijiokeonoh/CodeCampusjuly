@@ -1,0 +1,25 @@
+body{
+    background-color: yellow;
+    /* using background image */
+    /* background-image: url(Photo_of_Dora_Akunyili.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+
+    background: url(Photo_of_Dora_Akunyili.jpg) rgb(155, 70, 4)
+     no-repeat fixed center;
+    opasity: 0.9; 
+
+
+}
+
+    
+h1{
+    background-color: white;
+    border-width: 2px;
+    border-style: dashed;
+    color: red;
+
+    .border-width; 2
+}
