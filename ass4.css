@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+
+.border{
+    color: red;
+    border-width: 5px;
+    border-style: dotted;
+}
+
+.border2{
+color: aqua;
+border-width: 5px;
+border-style: dashed;
+}
+.border3{
+    color: yellowgreen;
+    border-width: 5px;
+    border-style: double;
+}
+
+.border4{
+    color: blueviolet;
+    border-width: 5px;
+    border-style: groove;
+}
+.border5{
+    color: brown;
+    border-width: 5px;
+    border-style: solid;
+}
+.border6{
+    color: black;
+    border-width: 5px;
+    border-style: hidden;
+}
+.border7{
+    color: aqua;
+    border-width: 5px;
+    border-style: outset;
+}
+.border8{
+    color: blue;
+    border-width: 5px;
+    border-style: inset;
+}
+.border9{
+    color: crimson;
+    border-width: 5px;
+    border-style: ridge;
+}
+.border10{
+    color: bisque;
+    border-width: 5px;
+    border-style: unset;
+}

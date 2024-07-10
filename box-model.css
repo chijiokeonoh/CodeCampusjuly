@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    /* the border shortcut */
+    /* border: 1px solid red; */
+    margin: auto; 
+    /* text-align: right; */
+    width: 500px;
+    text-decoration: 1px overline wavy yellow;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    /* the border shortcut */
+    border: 1px solid red;
+    margin-left: 40px;
+    text-indent: 40px;
+    /* text-align: center; */
+    justify-content: center;
+    text-align-last: right;
+    width: 70%;
+    height: 150px;
+    padding-left: 40px;
+    overflow: auto;
+    line-height: 30px;
+}
+
+h2{
+    display: inline;
+}
+
+a{
+    display: block;
+}
