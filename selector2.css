@@ -1,0 +1,75 @@
+p{
+    color: red;
+}
+
+.abdulmuiz{
+    color: pink;
+}
+
+.lizzy{
+    color: blue;
+}
+
+.abiodun{
+    color: yellow;
+}
+
+#cj{
+background-color: yellow
+}
+
+#mustapha{
+   background-color: blue;
+}
+
+/* universal selector */
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.dotted{
+    border: 1px dotted red
+}
+.dashed{
+    border: 1px dashed green
+}
+
+
+/* css decendant uses space between the parents element and the decendant element */
+.africa .nigeria{
+    color: green;
+}
+
+/* child selector uses > between the parent element and the child element */
+
+.africa>.nigeria{
+background-color: yellow;
+}
+
+.parent>.child3{
+    color: chartreuse;
+}
+
+/* adjacent sibling selector uses + to select immediately after the sibling*/
+
+.content h2+a{
+    color: white;
+    background-color: black;
+}
+a+h2{
+    color: blue;
+    background-color: white;
+}
+a+a{
+    color: red;
+    background-color: white;
+}
+
+.child3+.x1{
+    color: red;
+}
+h2~a{
+    color: purple;
+}
+
