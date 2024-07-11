@@ -1,0 +1,49 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+/* the style below is a decendant combinator */
+.understand h2{
+    color: red;
+}
+
+/* the style below is a child combinator */
+
+.understand>p{
+    background-color: yellow;
+}
+
+.coder>p{
+    color: red;
+}
+/* this is an adjacent sibling combinator */
+.coder+h2{
+    background-color: white;
+}
+/* this is a general sibling combinator */
+.coder~h2{
+    text-align: center;
+}
+
+.lizzy+h2{
+    background-color: black;
+}
+/* this is a pseudo element */
+h1::first-letter{
+    color: blue;
+    font-size: 50px;
+    font-style: oblique;
+}
+/* this is a pseudo class */
+h1:hover{
+    color: greenyellow;
+    text-decoration: underline;
+    font-size: 70px;
+}
